@@ -42,10 +42,15 @@ header span{
     word-spacing: 20px;
 }
 
-header p:last-of-type{
+header a{
     font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    padding: 0 0 10vh 0;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 3rem;
 }
 
 /* ============= MAIN ============================== */
@@ -89,28 +94,27 @@ main article div img{
     width: 60%;
 }
 
-main article div p{
+main article p{
     text-align: center;
     line-height: 30px;
-    padding-right: 25vw;
+    padding: 0vh 20vw 0vh 0vw;
 }
 
-main article div p:nth-of-type(1){
+main article p:nth-of-type(3){
+    padding: 0 20vw 3vh 0;
+}
+
+main article p:nth-of-type(odd){
     color: #666;
 }
 
-main article div p:nth-of-type(2){
+main article p:nth-of-type(even){
     color: #333;
-}
-
-main article div p:nth-of-type(3){
-    color: #666;
-    padding: 0 25vw 6vh 0;
 }
 
 main section:nth-of-type(2){
     text-align: center;
-    padding-left: 22vw;
+    padding-left: 10vw;
     line-height: 30px;
 }
 
@@ -131,18 +135,15 @@ main section:nth-of-type(2) p:nth-of-type(3){
     padding: 0 0 6vh 0;
 }
 
-main div article{
-    padding-left: 12vw;
-}
-
 main div article a img{
     width: 60%;
+    padding-left: 12vw;
 }
 
 main div article p{
     text-align: center;
     line-height: 30px;
-    padding-right: 25vw;
+    padding: 0vh 28vw 0vh 0vw;
 }
 
 main div article p:nth-of-type(1){
@@ -155,13 +156,9 @@ main div article p:nth-of-type(2){
 
 main div article p:nth-of-type(3){
     color: #666;
-    padding-bottom: 5vh;
+    padding: 0 28vw 5vh 0;
 }
 
-main article:nth-of-type(2){
-    text-align: center;
-    padding-left: 25vw;
-}
 
 main article:nth-of-type(2) a img{
     width: 65%;
@@ -170,26 +167,31 @@ main article:nth-of-type(2) a img{
 
 main article:nth-of-type(2){
     line-height: 30px;
+    text-align: center;
+    padding-left: 25vw;
 }
 
-main article:nth-of-type(2) p:nth-of-type(1){
+main article:nth-of-type(2) p{
+    padding-left: 22vw;
+}
+
+main article:nth-of-type(2) p:nth-of-type(even){
     color: #666;
 }
 
-main article:nth-of-type(2) p:nth-of-type(2){
+main article:nth-of-type(2) p:nth-of-type(odd){
     color: #333;
 }
 
 main article:nth-of-type(2) p:nth-of-type(3){
-    color: #666;
-    padding-bottom: 10vh;
+    padding-bottom: 25vh;
 }
 
 footer{
     text-align: center;
     border-top: 1px solid #ccc;
     font-size: 24px;
-    padding: 10vh 0 10vh 0;
+    padding: 20vh 0 20vh 0;
     color: #666;
 }
 footer a{

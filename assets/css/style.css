@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: Roboto;
     background: #eee;
+    max-width: 1440px;
 }
 
 /* ========== HEADER ============ */
@@ -61,11 +62,16 @@ main section:first-child p{
 
 main section:first-child div{
     text-align: center;
+
 }
 
 main section:first-child img{
-    padding: 0 2vw 4vh 0;
     width: 25%;
+    margin: 1%;
+}
+
+main section div img:hover{
+    box-shadow: 0 0 50px #ccc;
 }
 
 main section:first-child{
@@ -74,12 +80,12 @@ main section:first-child{
 }
 
 main article h2{
-    padding: 3vh 0 5vh 6vw;
+    padding: 8vh 0 6vh 6vw;
 }
 
 main article div img{
-    padding: 0vh 0 0 12vw;
     width: 60%;
+    padding-left: 12vw;
 }
 
 main article div p{
